@@ -1,16 +1,86 @@
-# React + Vite
+# 🔐 Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, feature-rich password generator built with **React** and **Vite**, featuring a sleek UI with Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features ✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Generate Strong Passwords**: Create secure random passwords instantly
+- **Customizable Length**: Adjust password length from 6-100 characters using an interactive slider
+- **Include Numbers**: Toggle numbers (0-9) in your password
+- **Include Special Characters**: Add special characters (!@#$%^&*) for extra security
+- **Copy to Clipboard**: One-click copy functionality
+- **Modern UI**: Beautiful gradient design with smooth animations and transitions
+- **Responsive Design**: Works seamlessly on all devices
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** - UI framework
+- **Vite** - Lightning-fast build tool
+- **Tailwind CSS** - Utility-first CSS framework
+- **JavaScript (ES6+)** - Modern JavaScript
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/anixxrudh1/Password-generator.git
+
+# Navigate to project directory
+cd Password-generator
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+The app will be available at `http://localhost:5173`
+
+## Usage
+
+1. **Set Password Length**: Use the slider to choose your desired password length (6-100 characters)
+2. **Toggle Options**: 
+   - Check "Include Numbers" to add digits
+   - Check "Include Special Characters" to add symbols
+3. **Generate**: Click the "Generate Password" button
+4. **Copy**: Click the "Copy" button to copy the password to your clipboard
+
+## Build
+
+To build for production:
+
+```bash
+npm run build
+```
+
+## Project Structure
+
+```
+src/
+├── App.jsx           # Main component with password generator logic
+├── App.css           # Component styles
+├── index.css         # Global styles with Tailwind
+├── main.jsx          # React entry point
+```
+
+## Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+
+## License
+
+This project is open source and available under the MIT License.
+
+## Author
+
+Created by [anixxrudh1](https://github.com/anixxrudh1)
