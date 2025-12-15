@@ -1,0 +1,3 @@
+*.jsx linguist-language=JSX
+*.jsx linguist-detectable=true
+src/**/*.jsx linguist-language=React

@@ -1,5 +1,11 @@
 # 🔐 Password Generator
 
+![React](https://img.shields.io/badge/React-18.3-blue?logo=react)
+![Vite](https://img.shields.io/badge/Vite-5.0-purple?logo=vite)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.3-38B2AC?logo=tailwindcss)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 A modern, feature-rich password generator built with **React** and **Vite**, featuring a sleek UI with Tailwind CSS.
 
 ## Features ✨
